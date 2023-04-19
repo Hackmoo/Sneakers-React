@@ -4,14 +4,19 @@
     border-radius: 20px;
     max-width: 220px;
     overflow-wrap: break-word;
-    p{
+    margin-bottom: 20px;
+    transition: 0.15s ease-in-out;
+    span{
         margin: 0;
         font-size: 16px;
         font-weight: 600;
         margin-bottom: 10px;
+        transition: 0.4s;
+        cursor: pointer;
     }
     .underGood{
         opacity: 0.6;
+        margin-bottom: 0;
     }
     .text{
         margin-top: 20px;
@@ -19,5 +24,18 @@
         width: 100%;
         justify-content: space-between;
         align-items: center;
+    }
+    Button{
+        background-color: gray;
+    }
+}
+.card:hover{
+    scale: 1.05;
+    span:hover{color: rgb(25, 118, 210);}
+    button{
+        background-color: rgb(25, 118, 210);
+    }
+    button:hover{
+        background-color: #1565c0;
     }
 }

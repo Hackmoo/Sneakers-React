@@ -10,7 +10,8 @@ header{
     .headerRight{
         display: flex;
         align-items: center;
-        transition: 0.4s;
+        transition: 0.4s ease-in-out;
+        cursor: pointer;
         p{margin-right: 10px;transition: 0.4s;font-weight: 700;}
     }
     .headerRight:hover{
@@ -21,6 +22,7 @@ header{
     .headerLeft{
         display: flex;
         align-items: center;
+        cursor: pointer;
         b{
             margin-left: 10px;
             font-size: 20px;

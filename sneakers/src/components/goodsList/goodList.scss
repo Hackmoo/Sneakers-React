@@ -1,5 +1,10 @@
-.goods{
-    display: flex;
-    flex-wrap: wrap;
+.wrapperGoods{
+    .goods{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
+
+
 

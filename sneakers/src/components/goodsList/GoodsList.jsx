@@ -8,7 +8,14 @@ export function GoodsList(){
         <div className="wrapperGoods">
             <h2>All Sneakers</h2>
             <div className="goods">
-             <Good/>
+             <Good />
+             <Good />
+             <Good />
+             <Good />
+             <Good />
+             <Good />
+             <Good />
+             <Good />
             </div>
         </div>
     )
