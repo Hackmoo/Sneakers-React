@@ -4,6 +4,45 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    .searcher{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .search-block{
+        border: 1px solid #f3f3f3;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        padding: 0 15px;
+        transition: 0.4s ease-in-out;
+        
+        .search-icon{
+            color: #BEBEBE;
+            transition: 0.4s ease-in-out;
+        }
+        input{
+            border: 0;
+            padding: 13px;
+            font-size: 16px;
+        }
+        input:hover{
+            outline: none;
+        }
+        input:focus{
+            outline: none;
+            .search-block:focus{
+                border: 10px solid red;
+            }
+        }
+    }
+    .search-block:hover{
+        border: 1px solid blue;
+        box-shadow: 0 0 10px -1px blue;
+        .search-icon{
+            color: blue
+        }
+    }
 }
 
 

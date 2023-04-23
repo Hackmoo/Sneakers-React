@@ -2,8 +2,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "inter";
+    font-family: "Inter";
     background: #e7f6ff;
+}
+
+* {
+    font-family: 'Inter', system-ui;
 }
 .wrapper{
     max-width: 1080px;
