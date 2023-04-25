@@ -12,10 +12,10 @@ header{
         align-items: center;
         transition: 0.4s ease-in-out;
         cursor: pointer;
-        p{margin-right: 10px;transition: 0.4s;font-weight: 700;}
+        span{margin-left: 10px;transition: 0.4s;font-weight: 400;}
     }
     .headerRight:hover{
-        P{
+        span{
             color: rgb(25, 118, 210);
         }
     }

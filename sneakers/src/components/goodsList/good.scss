@@ -5,7 +5,7 @@
     max-width: 220px;
     overflow-wrap: break-word;
     margin-bottom: 20px;
-    transition: 0.15s ease-in-out;
+    transition: 0.2s ease-in-out;
     span{
         margin: 0;
         font-size: 16px;
@@ -29,14 +29,21 @@
         background-color: gray;
         min-width: 54px;
     }
-}
-.card:hover{
-    scale: 1.05;
-    span:hover{color: rgb(25, 118, 210);}
-    button{
-        background-color: rgb(25, 118, 210);
+    .favorite{
+        position: relative;
+        cursor: pointer;
+        top: 10px;
+        left: 10px;
     }
-    button:hover{
-        background-color: #1565c0;
+    &:hover{
+        box-shadow: 0 20px 30px rgba(0,0,0,0.07);
+        transform: translateY(-5px);
+        span:hover{color: rgb(25, 118, 210);}
+        button{
+            background-color: rgb(25, 118, 210);
+        }
+        button:hover{
+            background-color: #1565c0;
+        }
     }
 }

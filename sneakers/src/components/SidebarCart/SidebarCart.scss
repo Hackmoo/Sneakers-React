@@ -1,0 +1,35 @@
+.overlay{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    height: 100%;
+}
+
+.cart{
+    position: absolute;
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: -10px 4px 24px rgba(0,0,0,0.1);
+    right: 0;
+    height: 100%;
+    z-index: 2;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+
+    h2{
+        margin: 0;
+    }
+}
+
+.cartItemBlock{
+    flex: 1;
+    overflow: auto;
+    box-sizing: border-box;
+}

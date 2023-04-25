@@ -1,0 +1,46 @@
+.BottomOfTheSideBarCart{
+    ul{
+        padding: 0;
+        li{
+            display: flex;
+            margin-bottom: 20px;
+        }
+    }
+    div{
+        flex: 1;
+        height: 1px;
+        border-bottom: 1px dashed #dfdfdf;
+        position: relative;
+        top: 15px;
+        margin: 0 7px;
+    }
+    button{
+        position: relative;
+        width: 100%;
+        background: #9dd558;
+        border: none;
+        border-radius: 18px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 500;
+        height: 55px;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        margin-top: 30px;
+        &:hover{
+            background: lighten($color: #9dd558, $amount: 5%);
+            .icon{
+                transform: translateX(5px);
+              }
+        }
+        &:active{
+            background: darken($color: #9dd558, $amount: 5%);
+        }
+        .icon{
+            position: absolute;
+            right: 40px;
+            transition: 0.2s ease-in-out;
+          }
+    }
+    }
+    
