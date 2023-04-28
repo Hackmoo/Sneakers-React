@@ -5,7 +5,7 @@ import {Header, GoodsList, SidebarCart} from './components/index'
 function App() {
   return (
     <div className="wrapper">
-      <SidebarCart/>
+      {/* <SidebarCart/> */}
       <Header />
       <GoodsList />
     </div>

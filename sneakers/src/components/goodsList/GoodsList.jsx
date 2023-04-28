@@ -6,6 +6,12 @@ import { SvgIcon } from "@mui/material";
 
 
 export function GoodsList(){
+    const testArr = [
+       {name: 'asdsad', price: '300'},
+       {name: 'aboba', price: '400'},
+       {name: 'test', price: 'uuuu'},
+       {name: 'hahaha woman', man: false, price: '10'}
+    ]
     return(
         <div className="wrapperGoods">
             <div className="searcher">
@@ -16,10 +22,9 @@ export function GoodsList(){
              </div>
             </div>
             <div className="goods">
-             <Good />
-             <Good />
-             <Good />
-             <Good />
+             {testArr.map((el) => 
+                <Good name={el.name} price={el.price} man={el.man}/>
+             )}
             </div>
         </div>
     )

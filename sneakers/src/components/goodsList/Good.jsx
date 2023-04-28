@@ -14,7 +14,7 @@ function Good({imgPath = './img/nike-red.png', man = true, name = 'Nike Air Max 
             <img 
             src={imgPath} alt="alt" width={'230px'} height={'220px'} 
             onClick={() => {setScreenState(!screenState)}}/>
-            {man ? (<span>Men's sneakers: <br/>{name}</span>) : (<p>Women's sneakers: <br/>{name}</p>)}
+            {man ? (<span>Men's sneakers: <br/>{name}</span>) : (<span>Women's sneakers: <br/>{name}</span>)}
             <div className="text">
               <span className="underGood">Price:  <strong>{price}$</strong></span>
               <Button variant="contained" size="small"><AddIcon/></Button>
